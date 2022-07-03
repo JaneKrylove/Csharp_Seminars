@@ -1,22 +1,25 @@
-﻿int SecondDigital()
+﻿    Console.WriteLine("Input number: ");
+int n1 = Convert.ToInt32(Console.ReadLine());
+
+
+int SecondDigital(int number)
+
 {
-    int n1;
+   
+    int firtsnumber = number / 10;
+    int secondnumber = firtsnumber % 10;
 
-    Console.WriteLine("Input number: ");
-    n1=Convert.ToInt32(Console.Readline());
-}
-    {
-        if(99<n1<100)
     
-    int sot = firstbumber;
-    int dec = secondnumber;
-    int ed = thirdnumber;
 
-    int result = secondnumber;
-    return result;
+    return secondnumber;
 
-        Console.WriteLine("Вторая цифра "+ secondnumber);
+}
+        if (n1 < 999 || n1 > 99)
+        {
+        int result = SecondDigital(n1);
+        Console.WriteLine("Вторая цифра " + result);
+        }
 
-    }
+    
 
     
